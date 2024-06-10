@@ -4,4 +4,6 @@ body {
     font-size: 18px;
 
 }
-header, footer 
+header, footer {
+    background-color: rgb(51, 51, 136);
+}
