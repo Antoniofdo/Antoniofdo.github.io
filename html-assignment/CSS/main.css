@@ -4,6 +4,11 @@ body {
     font-size: 18px;
 
 }
+/*give background color to header and footer*/
 header, footer {
     background-color: rgb(123, 123, 176);
+}
+/* dot means adding class */
+.site-title{
+    color:rgb(150, 66, 83);
 }
