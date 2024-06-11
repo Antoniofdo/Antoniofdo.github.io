@@ -21,3 +21,11 @@ header, footer {
 .list{
     list-style-type: square;
 }
+/* Selects the first li element in a list */
+li:nth-child(1) {
+    background: rgb(47, 184, 47);
+  }
+/* Selects the third li element in a list */
+li:nth-child(3) {
+    background: rgb(47, 184, 47);
+  }
