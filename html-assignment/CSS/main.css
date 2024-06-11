@@ -6,10 +6,15 @@ body {
 }
 /*give background color to header and footer*/
 
-header,footer {
+header, footer {
     background-color: rgb(123, 123, 176);
 }
 /* dot means adding class */
 .site-title{
     color:rgb(150, 66, 83);
 }
+/*# means adding id*/
+#my-image{
+    box-shadow: 0px 0px 2px 1px black;  
+}
+
