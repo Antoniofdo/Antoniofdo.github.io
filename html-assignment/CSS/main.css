@@ -5,7 +5,8 @@ body {
 
 }
 /*give background color to header and footer*/
-header, footer {
+
+header,footer {
     background-color: rgb(123, 123, 176);
 }
 /* dot means adding class */
