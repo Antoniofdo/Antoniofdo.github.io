@@ -19,7 +19,7 @@ header, footer {
 }
 /* dot means adding class */
 .list{
-    list-style-type: square;
+    list-style-type: square
 }
 /* Selects the first li element in a list */
 li:nth-child(1) {
@@ -29,3 +29,7 @@ li:nth-child(1) {
 li:nth-child(3) {
     background: rgb(47, 184, 47);
   }
+/* Remove Bullets in the list*/
+.list{
+    list-style-type: none;
+}
