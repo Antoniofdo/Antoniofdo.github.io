@@ -33,3 +33,6 @@ li:nth-child(3) {
 .list{
     list-style-type: none;
 }
+.underline{
+    text-decoration: none;
+}
