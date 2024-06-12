@@ -38,5 +38,8 @@ li:nth-child(3) {
 }
 .underline{
     background-color: lightgreen;
-    border-color: 1px yellow;
+}
+.underline{
+    border-style: solid;
+    border-color: 5px red;
 }
