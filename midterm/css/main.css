@@ -1,20 +1,4 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;    
-    background-color: #366;
-}
-
-.wrapper {
-    background-color:#aad4cf ;
-    width: 750px;
-    margin:auto;
-}
-
-
-header {
-    background-image:image("../images/lone-starfish-wide.jpg") ;
-    
-}
-
-nav li {
-    display: inline;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
 }
