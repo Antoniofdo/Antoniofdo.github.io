@@ -15,5 +15,5 @@ header .image1 {
 
 h1 {
     position: absolute;
-    align-content: center;
+    float: right;
 }
