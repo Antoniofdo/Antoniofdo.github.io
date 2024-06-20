@@ -1,11 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;    
-    background-color: #aad4cf;
-    margin: auto;
+    background-color: #366;
 }
+
+.wrapper {
+    background-color:#aad4cf ;
+    width: 750px;
+    margin:auto;
+}
+
 
 header {
     background-image:image("../images/lone-starfish-wide.jpg") ;
-    width: 750px;
-    margin:auto;
+    
 }
