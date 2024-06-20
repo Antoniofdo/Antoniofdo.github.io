@@ -14,3 +14,7 @@ header {
     background-image:image("../images/lone-starfish-wide.jpg") ;
     
 }
+
+nav li {
+    display: inline;
+}
