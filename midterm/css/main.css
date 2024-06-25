@@ -28,6 +28,7 @@ nav li{
     display: inline-block;
     width: 32%;
     text-align: center;
+    text-decoration: none;
 }
 nav ul{
     list-style-type: none;
