@@ -13,12 +13,13 @@ h1 {
 header .image1 {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover;;
 }
+
 header {
     position: relative;
     max-width: 500px;
-    margin:0 auto;
+    margin: auto;
 }
 
 .wrapper {
@@ -30,10 +31,10 @@ nav li{
     display: inline-block;
     width: 32%;
     text-align: center;
-    text-decoration: none;
 }
 nav ul{
     list-style-type: none;
     padding-left: 0;
+    text-decoration-line: none;
 }
 
