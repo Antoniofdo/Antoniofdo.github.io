@@ -9,6 +9,10 @@ h1 {
     width: 100%;
     z-index: 1;
 }
+header .image1 {
+    width: 100%;
+    height: 100%;
+}
 header {
     position: relative;
     max-width: 500px;
@@ -20,8 +24,14 @@ header {
     width: 75%;
     margin: auto;
 }
-
-header .image1 {
-     width: 100%;
-     height: 100%;
+nav li{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
 }
+nav ul{
+    list-style-type: none;
+    padding-left: 0;
+    border-right: 1px black;
+}
+
