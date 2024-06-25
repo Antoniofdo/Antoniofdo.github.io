@@ -8,6 +8,7 @@ h1 {
     text-align: center;
     width: 100%;
     z-index: 1;
+    color: white;
 }
 header .image1 {
     width: 100%;
@@ -15,7 +16,6 @@ header .image1 {
     object-fit: cover;
 }
 header {
-    color: white;
     position: relative;
     max-width: 500px;
     margin:0 auto;
