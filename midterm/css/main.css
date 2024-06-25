@@ -15,7 +15,7 @@ header .image1 {
     object-fit: cover;
 }
 header {
-    color: fff;
+    color: white;
     position: relative;
     max-width: 500px;
     margin:0 auto;
