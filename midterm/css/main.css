@@ -16,7 +16,7 @@ header .image1 {
 }
 
 header {
-    position: relative;
+    position: absolute;
     max-width: auto;
     margin: auto;
     
