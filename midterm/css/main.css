@@ -13,6 +13,7 @@ h1 {
 header .image1 {
     max-width: 100%;
     height: auto;
+    background-image: url(images/lone-starfish-wide.jpg);
 }
 
 header {
