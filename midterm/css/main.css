@@ -115,5 +115,8 @@ footer {
     height: 250px;
 }
 .form{
+    clear:none;
+}
+.form{
     clear: both;
 }
