@@ -59,7 +59,7 @@ a{
 }
 .image{
     max-width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     margin: o auto 20px auto;
     box-sizing: border-box;
