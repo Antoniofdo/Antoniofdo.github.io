@@ -54,6 +54,13 @@ a{
     color: black;
     display: block;
     padding: 12px;
-    font-size: larger;
+    font-size: 35px;
 
+}
+#home:nth-child(2){
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: o auto 20px auto;
+    box-sizing: border-box;
 }
