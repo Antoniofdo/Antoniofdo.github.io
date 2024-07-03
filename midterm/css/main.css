@@ -16,6 +16,16 @@ header {
      margin: auto;
      box-sizing: border-box;
 }   
+
+.image2{
+    
+    position: relative;
+    height: 350px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: auto;
+    box-sizing: border-box;
+}
 .wrapper {
     background-color: #D4E9E7;
     width: 1250px;
