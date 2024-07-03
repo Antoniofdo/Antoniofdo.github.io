@@ -18,13 +18,13 @@ header {
 }   
 .wrapper {
     background-color: #D4E9E7;
-    width: 750px;
+    width: 1250px;
     margin: auto;
     padding: 20px;
 }
 
 p{
-    font-size: 16pt
+    font-size: 18pt
 }
 
 ul{
@@ -118,3 +118,4 @@ footer {
 .form{
     clear: both;
 }
+
