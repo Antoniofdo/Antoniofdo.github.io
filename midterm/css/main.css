@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #AAD4CF;
 }
+/* header part edit */
 header {
     position:relative;
     width: 100%;
@@ -12,7 +13,7 @@ header {
     margin: auto;
     box-sizing: border-box;
 }   
-
+/* header image edits */
 .image2{
     
     position: relative;
@@ -22,21 +23,23 @@ header {
     margin: auto;
     box-sizing: border-box;
 }
+
+/* wrapper class edit */
 .wrapper {
     background-color: #D4E9E7;
     width: 1250px;
     margin: auto;
     padding: 20px;
 }
-
+/* paragraph font size added */
 p{
     font-size: 18pt
 }
-
+/* list font size added */
 ul{
     font-size: 18pt;
 }
-        
+/* h1 edit done*/
 h1 {
     position: absolute;
     top:30%;
@@ -46,7 +49,7 @@ h1 {
     color: white;
     font-size: 75px;
 }
-
+/* list edit 1*/
 nav li{
     display: inline-block;
     width: 32%;
@@ -55,19 +58,21 @@ nav li{
     border-right: 1px solid black;
     font-weight: bold;
 }
+/* list edit 2 */
 nav li{
     list-style-type: none;
     padding-left: 0;
     text-decoration-line: none;
 }
+/* list edit 3 */
 nav li:last-child{
     border-right: none;
 }
-
+/* h2 edit done */
 h2{
     font-size: 35px;
 }
-
+/* h3 edit done */
 h3{
     font-size: 30px;
 }
