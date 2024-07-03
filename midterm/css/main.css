@@ -17,6 +17,7 @@ header {
     
     position: relative;
     height: 350px;
+    width: 1200px;
     border: 1px solid black;
     margin: auto;
     box-sizing: border-box;
