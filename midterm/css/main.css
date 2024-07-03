@@ -9,7 +9,7 @@ header {
     left:0;
      background-image: url(/images/lone-starfish-wide.jpg);
      background-position: center;
-     background-size: cover;
+     border-image: 1px solid black;
      height: 350px;
      padding: 20px;
      border: 1px solid black;
