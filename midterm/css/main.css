@@ -18,7 +18,7 @@ header {
 }   
 .wrapper {
     background-color: #D4E9E7;
-    width: 60%;
+    width: 750px;
     margin: auto;
     padding: 20px;
 }
@@ -106,11 +106,11 @@ footer {
     width: 100%;
 }
 
-.form :nth-child(6){
+#email{
     width: 100%;
 }
 
-.form :nth-child(6){
+#message{
     width: 100%;
     height: 250px;
 }
