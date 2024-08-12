@@ -1,0 +1,10 @@
+/*  sets the margin, padding, border, font-size, font-family and vertical alignment to their default values for a wide range of HTML elements, effectively resetting their styling to a baseline state. This is often used as a starting point for creating a consistent, cross-browser layout for a web page. */
+
+head, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
