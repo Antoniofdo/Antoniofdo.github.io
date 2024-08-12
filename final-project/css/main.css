@@ -8,3 +8,9 @@ head, body {
     font: inherit;
     vertical-align: baseline;
   }
+/* Changing the font famliy of the webiste*/
+body {
+    font-family: 'Open Sans',sans-serif;
+    margin: 0%;
+}
+
