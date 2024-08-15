@@ -1,47 +1,620 @@
+/*  sets the font-size,font-family, margin, padding, border and vertical alignment to the default values for a wide range of HTML elements, effectively resetting their styling method to a baseline state. */
 
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  font-size: 100%;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
 
-.head, .body {
-    margin: 0%;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-  }
-
-.body {
+/* Changing the font famliy*/
+body {
     font-family: 'Open Sans',sans-serif;
     margin: 0%;
 }
 
-  
+/*The color change over of buttons in website when hovering the mouse pointer*/
+
 .nav a:hover {
-    background-color: #c78c06;
-    color: #222;
-  }
-.nav a:active {
-    background-color: #c78c06;
-    color: #222;
-  }
-  
+  background-color: #cc9106;
+  color: #000000;
+}
+
+.nav1 {
+  background-color: #cc9106;
+  color: #000000;
+}
+
+/* Navigation option has been modified */
 header nav ul li a {
-    display: block;
-    color: #c78c06;
-    font-size: 18px;
-    line-height: 21px; 
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    text-decoration: none;
-    margin: 0%;
-    background-color:#222;
-  }
-  
+  display: block;
+  margin: 0%;
+  color: #cc9106;
+  font-size: 18px;
+  line-height: 22px; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: none; 
+}
+
+/* Navigation list style has been removed */
 .nav li {
-    list-style: none;
+  list-style: none;
+}
+
+.nav a:hover {
+  background-color: #cc9106;
+}
+
+/* header logo settings been modified */
+header .logo {
+    background: #cc9106;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Search bar of the page has been updated */
+header form input {
+  height: 25px;
+  width: 80%;
+  padding: 05px; margin: 0;
+  font-size: 18px; line-height: 1;
+  border: 2px solid #bbbbbb;
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Search Icon has been updated*/
+header form button {
+  background-color: #000000;
+  border: 1px solid #cc9106;
+  color: #cc9106;
+  height: 42px; width: 45px;
+  margin: 0; padding: 0;
+}
+
+/* header background been set */
+header nav {
+  background: #000000;
+  padding: 14px;
+}
+ 
+/* Main section background added*/
+.main{
+  background-image: url('../image/main-banner.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  padding-top: 45px; 
+  height: 400px;
+}
+/* The overlay of the main */
+.submain{
+  background-color: #000000cb; 
+  opacity: 80%;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 30px;
+}
+/* Class submain h1 color changed */
+.submain h1 {
+  color: #fff
+}
+
+/* Class submain h1 color changed */
+.submain p {
+  color: #fff;
+  font-size: 10pt;
+  font-style: normal;
+}
+
+/* main height changed */
+.main { 
+  height: 400px; 
+}
+
+/* img max-width set to 100% */
+img {
+  max-width: 100%;
+}
+
+/* connect and button font family set */
+.connect {
+  font-family:'open Sans', sans-serif;
+}
+.btns  {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* connect button has been modified */
+.con {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px 15px;
+  background-color: #cc9106;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: flex-start;
+}
+
+.con1 {
+   font-size: larger;
+   color: #0000;
+   text-decoration: none;
+   font-weight: bold;
+   font-family: 'Open Sans', sans-serif;
+}
+
+/* buttons been given flex details */
+.btns {
+    display: flex;
+    justify-content: flex-start;
   }
   
-.nav a:hover {
+  /* buttons styling has been updated */
+.btns a {
+    display: inline-block;
+    padding: 20px 20px;
+    margin: 0%;
+    background-color:#000000;
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+    align-items: center;
+
+  }
+  
+.btns a:hover {
     background-color: #c78c06;
+    color: #000000;
   }
 
+
+
+/*About Us section*/
+
+/* about background modified */
+.about {
+    background: hsl(42, 97%, 76%);
+    padding: 16px;
+}
+
+/* about image styling */
+.about img {
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+/* about section paragraph been styled */
+.about p{
+  font-size: 10px
+}
+  
+
+/*Services section*/
+
+.services {
+  padding: 20px 12px 12px 12px;
+}
+
+.services .grid-item {
+  background: hsl(42, 97%, 76%);
+  ;
+}
+
+.services img {
+  width: 100%;
+  margin-bottom: 16px;
+ 
+}
+
+.services .grid-item {
+  margin-bottom: 16px;
+}
+
+.grid-item-text {
+  padding: 16px;
+}
+
+
+.btns {
+
+  color: white;
+  border: none;
+  font-size: 22px; 
+  line-height: 1;
+  padding: 32px 36px;
+}
+
+.btns {
+  padding-left: 10px;
+}
+
+/*Our Vision Section*/
+
+/* vision section been updated */
+.vision {
+  padding: 35px 15px 15px 15px;
+  background: url(../image/vision.jpg);
+  background-size: cover;
+  background-position:center;
+  color: rgb(254, 254, 254);
+}
+
+  .iconvis {
+    color: #fff;
+    background-color: #0505052f;
+    border: 1px solid #9e950f;
+    padding: 30px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    top: 280px;
+    left: 90px;
+    z-index: 2;
+    font-size: larger;
+  }
+  
+  .iconvis{
+    background-color: rgb(16, 43, 126);
+    color: #fff;
+  }
+  .iconvis a{
+    background-color: #c78c06;
+    padding: 30px 10x;
+  }
+
+/*Team Section */
+
+/* team section padding done */
+.team {
+  padding: 35px 15px 15px 15px;
+}
+
+/* team section image styled */
+.team img {
+  width: 100%;
+}
+/* team section text section styled */
+.team .grid-text {
+  background: #ffe6ac;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+/* team section h3 and h4 styled */
+.team h3 {
+  margin-bottom: 0.3em;
+}
+
+.team h4 {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid #c78a07ec;
+  margin-bottom: 0.75em;
+  padding-bottom: 5px;
+}
+
+/*Contact Us Section */
+
+/* contact us section padding styled */
+.contact {
+  padding: 35px 15px 15px 15px;
+}
+
+/* contact us section h2 styled */
+.contact h2 {
+  margin-bottom: 0.75em;
+}
+
+/* contact us section form styled */
+.contact form {
+  width: 100%;
+}
+
+/* contact us section lbls styled */
+.contact form label {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  margin: 0 0 0.25em 0;
+}
+
+/* contact us section input and typing area styled */
+.contact form input,
+.contact form textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #797979d3;
+  border-radius: 5px;
+}
+
+/* contact us section form height adjusted */
+.contact form input {
+  height: 30px;
+}
+
+/* contact us section form height adjusted */
+.contact form textarea {
+  height: 150px;
+}
+
+/* contact us section button styled */
+.send {
+  background: #222;
+  color: #ffb413;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 16px 0;
+  border: none;
+  font-size: 20px;
+  padding: 8px 8px ;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+/* contact us table updated */
+.contact table {
+  border: 0.5px solid black;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.contact table th, 
+.contact table td {
+  line-height: 17px;
+  padding: 17px;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+
+.contact table tr th {
+  background: #fcb61e;
+  border-bottom: 1px solid #000000;
+}
+
+
+/* google location map updated */
+.contact iframe {
+  width: 100%;
+  height: 400px;
+}
+
+/* footer background been updated */
+footer {
+  background: #000000;
+  padding: 16px;
+  color: #fcb827;
+}
+
+footer p:last-child {
+  margin-bottom: 0;
+}
+
+footer a {
+    color: #c78b07;
+  
+}
+
+
+/*Desktop version*/
+
+@media screen and (min-width: 760px) {
+
+  
+
+  h1 {
+      font-size: 81px;
+      line-height: 118px;
+      font-weight: 800; 
+      color: #ffffff;
+  }
+
+  h2 {
+      font-size: 54px;
+      line-height: 1;
+      font-weight: bold;
+  }
+
+  h3 {
+      font-size: 36px;
+      line-height: 1;
+      font-weight: bold;
+      margin-bottom: 0.8em;
+  }
+
+  p {
+      font-size: 16px;
+      line-height: 1.5;
+  }
+
+  header nav {
+      padding: 0;
+  }
+
+  header .logo {
+      background: none;
+      padding: 0;
+  }
+
+  .container, .grid-container {
+      width: 760px;
+      margin: 0 auto;
+  }
+
+  /* Header + Nav bar */ 
+
+  header nav {
+      padding: 36px 0;
+  }
+
+  header nav  {
+      display: flex;
+      align-items: center;
+  }
+
+  header nav.logo {
+      margin-right: 67px;
+  }
+
+  header nav .container ul {
+      flex-grow: 1;
+      display: flex;
+  }
+
+  header nav .container ul li {
+       width: 100%;
+  }
+
+  header nav .container ul li a {
+      font-size: 20px;
+  }
+
+  header form input {
+      height: 45px;
+      border-radius: 3px;
+  }
+
+  header form button {
+      height: 47px;
+      width: 47px;
+  }
+
+    /* Header Intro */ 
+
+    header .intro h1 {
+      padding-right: 50px;
+  }
+
+  header .intro button {
+      font-size: 24px;
+      padding: 40px;
+  }
+
+ /*About Us in the Container*/ 
+
+ .about .container {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 16px;
+     align-items: center;
+ }
+
+ .about img {
+  margin-bottom: 0;
+ }
+
+
+ /* Services in the Grid view */ 
+
+ .services .grid-container {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-gap: 16px;
+  margin-bottom: 16px;
+}
+
+.services .grid-item {
+  margin-bottom: 0;
+}
+
+.services .grid-item-text {
+  padding-top: 32px;
+}
+
+.services .grid-item:nth-child(1) {
+  grid-column: 1 / span 3 ;
+}
+
+.services .grid-item:nth-child(2) {
+   grid-column: 4 / span 3 ;
+}
+
+.services .grid-item:nth-child(3) {
+   grid-column: 1 / span 2 ;
+}
+
+.services .grid-item:nth-child(4) {
+   grid-column: 3 / span 2 ;
+}
+
+.services .grid-item:nth-child(5) {
+   grid-column: 5 / span 2 ;
+}
+
+.btns {
+   display: block; 
+   padding: 43px 32px;
+   width: 100%;
+}
+
+/*Vision */
+
+.vision button {
+   padding: 44px;
+}
+
+/* Team grid view*/
+
+.team .grid-row {
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+
+.team .grid-row.grid-row--reverse .grid-item:nth-child(1) {
+   order: 2;
+}
+
+.team .grid-item--text {
+   margin: 0;
+}
+
+/*Contact us */
+
+.contact .grid-container {
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-gap: 24px;
+   padding-top: 32px;
+}
+
+.contact .grid-item:nth-child(2) {
+   order: 3;
+   grid-column: span 2;
+}
+
+.contact .grid-item:nth-child(3) {
+   order: 2;
+}
+
+.contact form input,
+.contact form textarea {
+   display: block;
+   width: calc(100% - 2px);
+}
+
+.contact form button {
+   font-size: 24px;
+}
+
+.contact table {
+   font-size: 16px;
+}
+
+/* Footer  */
+
+footer .container {
+   padding-top: 16px;
+}
+
+}
+
+/* Desktop version */
+@media screen and (min-width: 1200px) { 
+  .grid-container, .container {
+     width: 1168px;
+     padding: 0 16px;
+  }
+  } 
